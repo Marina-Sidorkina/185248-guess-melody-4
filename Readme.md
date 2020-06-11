@@ -1,7 +1,7 @@
 # Учебный проект «Угадай мелодию» [![Build status][travis-image]][travis-url]
 
 * Студент: [Marina Sidorkina](https://up.htmlacademy.ru/react/4/user/185248).
-* Наставник: `Неизвестно`.
+* Наставник: `Проект выполняется без наставника`.
 
 ---
 
