@@ -1,8 +1,8 @@
 import React from "react";
+import PropTypes from "prop-types";
 import {WelcomeScreen} from "../welcome-screen/wecome-screen.jsx";
 
 export const App = (props) => {
-  // eslint-disable-next-line react/prop-types
   const {mistakesAmount} = props;
 
   return (
@@ -10,4 +10,8 @@ export const App = (props) => {
       mistakesAmount={mistakesAmount}
     />
   );
+};
+
+App.propTypes = {
+  mistakesAmount: PropTypes.number.isRequired
 };
